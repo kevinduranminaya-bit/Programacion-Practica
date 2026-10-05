@@ -1,8 +1,17 @@
-Console.WriteLine("===CALCULADORA BASICA===");
-Console.WriteLine("1. Suma");
-Console.WriteLine("2. Resta");
-Console.WriteLine("3. Multiplicación");
-Console.WriteLine("4. División");
-Console.WriteLine("5. Cerrar");
+List<decimal> typedNumbers = new List<decimal>();
+bool running = true;
 
-Console.WriteLine("Ingrese su opcion: ");
+Console.WriteLine("<===BASIC CALCULATOR===>");
+
+while (running)
+{
+
+Console.WriteLine("1. Addiction");
+Console.WriteLine("2. Substraction");
+Console.WriteLine("3. Multiplication");
+Console.WriteLine("4. Division");
+Console.WriteLine("5. Close");
+
+Console.WriteLine("Enter your option: ");  
+
+}
